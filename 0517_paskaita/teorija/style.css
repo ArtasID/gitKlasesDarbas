@@ -1,0 +1,35 @@
+table {
+  width: 800px;
+  margin: 2em;
+  text-align: center;
+  font-family: "courgette", cursive;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: aqua;
+  border: 1px solid white;
+  color: white;
+  padding: 1em;
+  font-size: 2em;
+}
+
+td {
+  padding: 1em;
+  border: 1px solid #ddd;
+}
+
+caption {
+  font-size: 3em;
+  text-transform: capitalize;
+}
+
+/* tr:first-child {
+  background-color: blue;
+}
+tr:last-child {
+  background-color: bisque;
+} */
+tr:nth-child(even) {
+  background-color: blue;
+}

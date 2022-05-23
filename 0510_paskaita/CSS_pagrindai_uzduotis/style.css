@@ -1,0 +1,14 @@
+h1{
+    color: red;
+    background-color: black;
+    text-align: left;
+    text-decoration: underline;
+}
+
+#google:hover{
+    color: yellow;
+}
+
+#self:link{
+    color: green;
+}

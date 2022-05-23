@@ -1,0 +1,91 @@
+body {
+  width: 1000px;
+  /* border: 1px red solid; */
+}
+
+.maxima_logo {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block1 {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px grey solid;
+  margin-bottom: 2%;
+}
+.block2 {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px grey solid;
+  margin-bottom: 2%;
+}
+
+.block3,
+.block4 {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px grey solid;
+  margin-bottom: 2%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+h4 {
+  margin: 0%;
+}
+nav {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.apie_mus {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.produktai {
+  display: block;
+  width: 25%;
+  height: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parduotuves {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.copyright {
+  text-align: center;
+}

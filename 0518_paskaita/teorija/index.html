@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forma</title>
+  </head>
+  <body>
+    <form action="submit.html" method="post" target="_blank">
+      <h1>Create an account</h1>
+      <input type="text" value="1234" hidden /> <br /><br />
+      <label for="email">Email:</label><br /><br />
+      <input type="email" id="email" autofocus required /><br /><br />
+      <label for="password">Password:</label><br /><br />
+      <input
+        type="password"
+        name=""
+        id="password"
+        min="8"
+        max="22"
+        required
+      /><br /><br />
+      <label for="age">Age:</label><br /><br />
+      <input type="number" name="" id="age" required />
+      <br /><br />
+      <label for="about">Tell us a little about yourself:</label>
+      <br /><br />
+      <textarea
+        name="about"
+        id="about"
+        cols="30"
+        rows="10"
+        maxlength="200"
+      ></textarea
+      ><br /><br />
+      <input type="checkbox" id="checkbox" />
+      <label for="checkbox"
+        >I agree to the <a href="#">terms of service</a> </label
+      ><br /><br />
+      <input type="submit" value="Sign up" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+table {
+  width: 300px;
+  /* margin: 2em; */
+  text-align: center;
+  /* border: 3px red solid; */
+  padding: 0px;
+  border-collapse: collapse;
+  font-weight: bolder;
+}
+
+th {
+  /* border: 2px black solid; */
+  padding: 10px;
+  margin: 0px;
+}
+
+td {
+  /* border: 2px black solid; */
+  padding: 10px;
+  margin: 0px;
+}
+
+tr:nth-child(2) td:nth-child(2) {
+  background-color: orange;
+}

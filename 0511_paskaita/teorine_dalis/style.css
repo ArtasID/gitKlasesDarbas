@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: pink;
+}
+
+.content-box{
+    width: 400px;
+    height: 400px;
+    padding: 20px 15px 20px 30px;
+    margin: 30px auto;
+   /* border: 1em solid green;*/
+    box-sizing: content-box;
+    /*border-style: double;
+    border-width: 1rem;
+    border-color: aqua;*/
+    border: 1rem solid aqua;
+    border-radius: 10% 50%;
+    border-bottom-color: red ;
+}
+
+.border-box{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    margin: 30px auto;
+    /*border: 1em solid green;*/
+    box-sizing: border-box;
+    border: 1rem solid aqua;
+    font-family: 'Sofia', cursive;
+}

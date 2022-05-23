@@ -1,0 +1,135 @@
+body {
+  width: 900px;
+  height: 900px;
+  margin: 0%;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+}
+
+header h1 {
+  display: block;
+  width: 70%;
+  margin: 0% auto;
+  padding: 5% 0% 2% 0%;
+}
+
+header img {
+  display: block;
+  width: 20%;
+  height: 20%;
+  margin: 0% auto;
+  padding-top: 2%;
+}
+
+header nav {
+  display: block;
+  width: 66%;
+  height: 20%;
+  background-color: darkgoldenrod;
+  margin: 0% auto;
+  padding: 2%;
+  text-align: right;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  margin: 1%;
+}
+
+article h2 {
+  display: block;
+  width: 70%;
+  margin: 0% auto;
+  padding: 3% 0% 3% 0%;
+}
+
+article p {
+  display: block;
+  width: 70%;
+  margin: 0% auto;
+  text-align: justify;
+}
+
+article a {
+  display: block;
+  width: 12%;
+  margin: 2% auto;
+  background-color: red;
+  padding: 1%;
+  text-align: center;
+  border-radius: 0.8rem;
+  color: white;
+}
+
+nav {
+  background-color: darkblue;
+  width: 100%;
+  color: white;
+  padding-bottom: 2%;
+}
+
+nav h2 {
+  display: block;
+  width: 70%;
+  margin: 0% auto;
+  padding: 3% 0% 2% 0%;
+}
+
+table {
+  width: 70%;
+  margin: 0% auto;
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px rgb(125, 19, 19) solid;
+  padding: 1%;
+}
+
+th {
+  border: 2px rgb(125, 19, 19) solid;
+}
+
+tr td:nth-child(1) {
+  text-align: center;
+}
+
+tr td:nth-child(2) {
+  text-align: right;
+}
+
+section h2 {
+  display: block;
+  width: 70%;
+  margin: 0% auto;
+  padding: 3% 0% 2% 0%;
+}
+
+section ul {
+  display: block;
+  width: 65%;
+  margin: 0% auto;
+}
+
+section a {
+  display: block;
+  text-align: center;
+  margin: 2% 0% 2% 0%;
+}
+
+footer {
+  display: block;
+  width: 100%;
+
+  background-color: darkgoldenrod;
+  margin: 0% auto;
+  padding: 1% 0% 1% 0%;
+  text-align: center;
+  color: white;
+}

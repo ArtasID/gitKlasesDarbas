@@ -1,0 +1,48 @@
+.container{
+    width: 162px;
+    margin: 0 auto;
+    
+}
+.yellow{
+    background-color: yellow;
+    width: 160px;
+    height: 20px;
+}
+.green{
+    background-color: green;
+    width: 160px;
+    height: 20px;
+}
+
+.red{
+    background-color: red;
+    width: 160px;
+    height: 20px;
+}
+
+.flag{
+    border: solid 1px black;
+    
+}
+
+h2{
+    text-align: right;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+
+a:link{
+    color: red;
+    }
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: yellow;
+}
