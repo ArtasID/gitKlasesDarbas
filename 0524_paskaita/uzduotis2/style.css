@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  width: 1024px;
+  height: 400px;
+  gap: 2%;
+  margin: 2em auto;
+}
+div {
+  display: flex;
+  background-size: cover;
+  width: 25%;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+}
+#pirmas {
+  background-image: url(img/1.jfif);
+}
+#antras {
+  background-image: url(img/2.jfif);
+}
+#trecias {
+  background-image: url(img/3.jfif);
+}
+#ketvirtas {
+  background-image: url(img/4.jfif);
+}

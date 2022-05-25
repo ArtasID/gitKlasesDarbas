@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+header div {
+  height: 100px;
+  width: 100%;
+  background-color: orange;
+  border: solid 1px black;
+}
+
+article {
+  display: flex;
+}
+article div {
+  background-color: lime;
+  border: solid 1px black;
+  height: 200px;
+  width: 100%;
+}
+section {
+  display: flex;
+  flex-direction: row;
+}
+section div {
+  height: 100px;
+  width: 33.33%;
+  background-color: blue;
+  border: solid 1px black;
+}
+
+footer {
+  display: flex;
+  height: 100px;
+  width: auto;
+}
+footer div {
+  display: flex;
+  height: 100px;
+  width: 25%;
+  background-color: grey;
+  border: 1px solid black;
+}

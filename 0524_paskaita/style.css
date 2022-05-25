@@ -1,0 +1,53 @@
+* {
+  background-color: aqua;
+}
+
+body {
+  height: 800px;
+  border: solid 2px red;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  /* flex-flow: row wrap; */
+  justify-content: flex-start;
+  align-items: flex-end;
+  /* align-content: flex-end; */
+}
+
+div {
+  /* height: 100px; */
+  width: 100px;
+  line-height: 100px;
+  border: solid 2px black;
+  font-size: 3em;
+  background-color: crimson;
+  text-align: center;
+  margin: 20px;
+}
+
+/* #c {
+  height: 400px;
+  font-size: 10em;
+} */
+
+/* #e {
+  order: -1;
+} */
+
+#a {
+  /* flex-grow: 1; */
+  /* flex-shrink: 2; */
+  /* flex-basis: 200px; */
+  /* flex: 1 0 200px; */
+  align-self: center;
+}
+
+#c {
+  /* flex-grow: 2; */
+  /* flex-shrink: 0; */
+  align-self: flex-start;
+}
+
+#e {
+  align-self: center;
+}
